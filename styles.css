@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    background-color: #1a1a1a;
+    color: #d0d0d0;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 40px 0 40px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #999;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #d0d0d0;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+main {
+    padding: 20px 0 40px 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 30px 0 15px 0;
+}
+
+p {
+    color: #b0b0b0;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+a {
+    color: #88ccee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.guide-list {
+    list-style: none;
+    padding: 0;
+}
+
+.guide-list li {
+    margin-bottom: 15px;
+}
+
+.guide-list a {
+    display: block;
+    padding: 12px 16px;
+    background-color: #252525;
+    border-left: 3px solid #88ccee;
+    color: #88ccee;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.guide-list a:hover {
+    background-color: #2d2d2d;
+    text-decoration: none;
+}
+
+footer {
+    border-top: 1px solid #333;
+    padding: 20px 0;
+    margin-top: 40px;
+    color: #666;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
